@@ -18,7 +18,6 @@ class TailwindColor extends Fieldtype
         return [
             [
                 'display' => __('Appearance & Behavior'),
-                'display' => __('Appearance & Behavior'),
                 'fields' => [
                     'swatches' => [
                         'display' => 'Tailwind Colors',

@@ -2,6 +2,13 @@
 
 Tailwind color field is a Statamic addon that lets you define your Tailwind colors and use them in your blueprints.
 
+Field in action:
+<img width="1142" alt="Scherm­afbeelding 2024-01-18 om 12 04 47" src="https://github.com/pixelpillow/statamic-tailwind-color-field/assets/224501/18d7de7a-6bb4-41bc-86af-8c2226f1d463">
+
+Field settings:
+![CleanShot 2024-01-18 at 12 05 57@2x](https://github.com/pixelpillow/statamic-tailwind-color-field/assets/224501/02054189-e35d-4758-8138-b87a42deaf10)
+
+
 ## How to Install
 
 Add this addon by running the following command in your terminal:
@@ -9,6 +16,7 @@ Add this addon by running the following command in your terminal:
 ```bash
 composer require pixelpillow/statamic-tailwind-color-field
 ```
+
 
 ## How to Use
 

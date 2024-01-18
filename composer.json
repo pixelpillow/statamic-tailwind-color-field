@@ -1,0 +1,30 @@
+{
+  "name": "pixelpillow/statamic-tailwind-color-field",
+  "description": "A Statamic fieldtype that allows you to select Tailwind colornames for frontend use.",
+  "autoload": {
+    "psr-4": {
+      "Pixelpillow\\StatamicTailwindColorSelector\\": "src"
+    }
+  },
+  "extra": {
+    "statamic": {
+      "name": "Tailwind Color Selector field",
+      "description": "A Statamic fieldtype that allows you to select Tailwind colornames for frontend use."
+    },
+    "laravel": {
+      "providers": [
+        "Pixelpillow\\StatamicTailwindColorSelector\\ServiceProvider"
+      ]
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "statamic/cms": "^4.44",
+    "pixelfear/composer-dist-plugin": "^1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "pixelfear/composer-dist-plugin": true
+    }
+  }
+}
